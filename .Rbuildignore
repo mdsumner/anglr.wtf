@@ -1,2 +1,4 @@
 ^anglr\.wtf\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
+^\.travis\.yml$
