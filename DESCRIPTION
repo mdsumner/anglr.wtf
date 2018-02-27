@@ -10,7 +10,13 @@ ByteCompile: true
 URL: https://github.com/mdsumner/anglr.wtf
 BugReports: https://github.com/mdsumner/anglr.wtf/issues
 Imports: 
-    anglr
+    anglr,
+    rgl,
+    spbabel
 Remotes: hypertidy/anglr
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.0.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

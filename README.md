@@ -1,5 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+[![Travis build status](https://travis-ci.org/mdsumner/anglr.wtf.svg?branch=master)](https://travis-ci.org/mdsumner/anglr.wtf)
+
 anglr.wtf
 =========
 
@@ -25,6 +27,8 @@ sph <- sp(holey)
 #   replacement has 0 rows, data has 9
 # Execution halted
 library(anglr)
+#> Warning in rgl.init(initValue, onlyNULL): RGL: unable to open X11 display
+#> Warning: 'rgl_init' failed, running with rgl.useNULL = TRUE
 rgl::rgl.clear()
 linehouse <- as(sph, "SpatialLinesDataFrame")
 plot(anglr(linehouse))
