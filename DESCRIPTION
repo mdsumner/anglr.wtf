@@ -1,9 +1,11 @@
 Package: anglr.wtf
 Version: 0.0.0.9000
-Title: What the Package Does (One Line, Title Case)
+Title: Wonders 'WTF' went Wrong
 Description: What the package does (one paragraph).
 Authors@R: person("Michael", "Sumner", email = "mdsumner@gmail.com", role = c("aut", "cre"))
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
+URL: https://github.com/mdsumner/anglr.wtf
+BugReports: https://github.com/mdsumner/anglr.wtf/issues
