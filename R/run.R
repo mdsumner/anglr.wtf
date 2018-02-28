@@ -10,6 +10,7 @@
 #' @importFrom methods as
 #' @importFrom utils data
 #' @importFrom gibble gibble
+#' @importFrom anglr anglr
 #' @examples
 #' run()
 run <- function() {
