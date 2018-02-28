@@ -33,11 +33,8 @@ matrix:
           env:
            - BUILD_NAME=osx_release
            - DETAILS="release build"
+  #         - LIBGL_ALLOW_SOFTWARE=true
 
-
-# We use clang, --without-libtool and --with-debug for faster build
-compiler:
-  - clang
 
 after_success:
   - Rscript -e 'covr::codecov()'

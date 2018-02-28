@@ -9,12 +9,12 @@ LazyData: true
 ByteCompile: true
 URL: https://github.com/mdsumner/anglr.wtf
 BugReports: https://github.com/mdsumner/anglr.wtf/issues
-Depends: anglr
+Depends: anglr, gibble
 Imports: 
     rgl,
     spbabel,
     methods
-Remotes: hypertidy/anglr
+Remotes: hypertidy/anglr, mdsumner/gibble
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.0.1
 Suggests: 
