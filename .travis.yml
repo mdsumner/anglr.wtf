@@ -33,7 +33,7 @@ matrix:
           env:
            - BUILD_NAME=osx_release
            - DETAILS="release build"
-  #         - LIBGL_ALLOW_SOFTWARE=true
+           - LIBGL_ALLOW_SOFTWARE=true
 
 
 after_success:
